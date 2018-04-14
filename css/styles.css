@@ -2,7 +2,19 @@ body {
   font-family: sans-serif;
 }
 
-#html-help-showing {
+#forums-showing {
+  display: none;
+}
+
+#tools-showing {
+  display: none;
+}
+
+#links-showing {
+  display: none;
+}
+
+#faqs-showing {
   display: none;
 }
 
