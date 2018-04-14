@@ -1,4 +1,8 @@
-#walrus-showing {
+body {
+  font-family: sans-serif;
+}
+
+#html-help-showing {
   display: none;
 }
 
