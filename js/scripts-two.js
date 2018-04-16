@@ -4,19 +4,19 @@ $(document).ready(function() {
     $("#forums-hidden").slideToggle();
   });
 
-  $(".clickable").click(function() {
-    $("#tools-showing").slideToggle();
-    $("#tools-hidden").tslideToggle();
+  $(".clickable-one").click(function() {
+    $("#tools-showing").toggle();
+    $("#tools-hidden").toggle();
   });
 
-  $(".clickable").click(function() {
-    $("#links-showing").slideToggle();
-    $("#links-hidden").slideToggle();
+  $(".clickable-two").click(function() {
+    $("#links-showing").fadeToggle();
+    $("#links-hidden").fadeToggle();
   });
 
-  $(".clickable").click(function() {
-    $("#faqs-showing").slideToggle();
-    $("#faqs-hidden").slideToggle();
+  $(".clickable-three").click(function() {
+    $("#faqs-showing").fadeIn();
+    $("#faqs-hidden").fadeIn();
   });
 
 });
