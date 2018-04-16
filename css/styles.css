@@ -2,54 +2,14 @@ body {
   font-family: sans-serif;
 }
 
-#forums-showing {
-  display: none;
+#forums-showing, #tools-showing, #links-showing {
+   display: none;
 }
 
-#tools-showing {
-  display: none;
-}
-
-#links-showing {
-  display: none;
-}
-
-#faqs-showing {
-  display: none;
-}
-
-/*
-p {
+.clickable, .clickable-one, .clickable-two  {
   cursor: pointer;
   color: #0088cc;
 }
-*/
-
-.clickable {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-one {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-two {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-three {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-/*
-p:hover {
-  text-decoration: underline;
-}
-*/
 
 .clickable:hover {
   text-decoration: underline;

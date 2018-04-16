@@ -13,10 +13,11 @@ $(document).ready(function() {
     $("#links-showing").fadeToggle();
     $("#links-hidden").fadeToggle();
   });
-
+/*
   $(".clickable-three").click(function() {
     $("#faqs-showing").fadeIn();
     $("#faqs-hidden").fadeIn();
   });
+*/
 
 });
