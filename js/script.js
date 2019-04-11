@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $("button#gray").click(function()  {
+    $("body").css("background-color", "rgb(237, 172, 92)");
+  });
+
   $(".clickable").click(function() {
     $("#forums-showing").slideToggle();
     $("#forums-hidden").slideToggle();
@@ -20,5 +24,6 @@ $("button").click(function(){
   $("#links").fadeOut("slow");
   $("#links").fadeOut(3000);
 });
+
 
 });
