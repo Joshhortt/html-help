@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $(".clickable").click(function() {
     $("#forums-showing").slideToggle();
     $("#forums-hidden").slideToggle();
@@ -12,12 +13,12 @@ $(document).ready(function() {
   $(".clickable-two").click(function() {
     $("#links-showing").fadeToggle();
     $("#links-hidden").fadeToggle();
-  });
-/*
-  $(".clickable-three").click(function() {
-    $("#faqs-showing").fadeIn();
-    $("#faqs-hidden").fadeIn();
-  });
-*/
+});
+
+$("button").click(function(){
+  $("#links").fadeOut();
+  $("#links").fadeOut("slow");
+  $("#links").fadeOut(3000);
+});
 
 });
