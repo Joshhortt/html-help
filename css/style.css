@@ -14,3 +14,7 @@ body {
 .clickable:hover {
   text-decoration: underline;
 }
+
+.dark  {
+  background-color: rgb(237, 172, 92);
+}

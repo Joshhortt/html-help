@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  $("button#gray").click(function()  {
-    $("body").css("background-color", "rgb(237, 172, 92)");
+  $("button.click").click(function()  {
+    $("body").addClass("dark");
   });
 
   $(".clickable").click(function() {
@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("#links-hidden").fadeToggle();
 });
 
-$("button").click(function(){
+$("button.fadeOut").click(function(){
   $("#links").fadeOut();
   $("#links").fadeOut("slow");
   $("#links").fadeOut(3000);
